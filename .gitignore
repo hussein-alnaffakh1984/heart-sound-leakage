@@ -1,0 +1,14 @@
+# Data (download from original sources, do not commit)
+*.wav
+*.npy
+mels.npy
+data/
+prepared/
+heart_sound/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+# OS
+.DS_Store
