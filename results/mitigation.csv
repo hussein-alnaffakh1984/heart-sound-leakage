@@ -1,0 +1,3 @@
+setting,auc_mean,auc_std
+LODO baseline,0.5221930215830656,0.04664875615201383
+LODO + per-source standardize,0.46987627215144784,0.14522543811441527
