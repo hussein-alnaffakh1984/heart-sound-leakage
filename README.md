@@ -24,9 +24,10 @@ A source-identity probe predicts the originating database from the same features
 
 ```bash
 pip install -r requirements.txt
-python src/train.py
-python src/evaluate.py
+jupyter notebook src/heart-sound-leakage-audit.ipynb
 ```
+
+The notebook reproduces every experiment in the paper end-to-end: data preparation, mel-spectrogram extraction, the three evaluation protocols (segment, record, LODO), source-identity probe, within-database baselines, CORAL and DANN mitigation experiments, and external PASCAL validation.
 
 ## Repository structure
 
